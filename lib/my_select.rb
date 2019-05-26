@@ -3,7 +3,7 @@ def my_select(collection)
   counter = 0
   new_collection = []
   while counter < collection.length
-    if yield(collection[counter]) == ture
+    if yield(collection[counter]) == true
       new_collection.push(collection[counter])
     counter += 1
   end
