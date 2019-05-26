@@ -7,5 +7,5 @@ def my_select(collection)
     yield(collection[counter])
     counter += 1
   end
-  # new_collection
+  return collection
 end
