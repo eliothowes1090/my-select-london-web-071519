@@ -6,4 +6,5 @@ def my_select(collection)
     yield(new_collection.push(collection[counter]))
     counter += 1
   end
+  new_collection
 end
